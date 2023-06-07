@@ -59,13 +59,13 @@ export default function about() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={2000}>
-      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
+      <img src="/LOL(2).jpg" className="d-block w-100" alt="LOL(2)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item" data-bs-interval={2000}>
-      <img src="/LOL(2).jpg" className="d-block w-100" alt="LOL(2)" />
+      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>

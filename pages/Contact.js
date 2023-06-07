@@ -59,7 +59,7 @@ export default function Contact() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={2000}>
-      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
+      <img src="/LOL(5).jpg" className="d-block w-100" alt="LOL(5)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
@@ -71,7 +71,7 @@ export default function Contact() {
     </div>
 
     <div className="carousel-item">
-      <img src="/LOL(5).jpg" className="d-block w-100" alt="LOL(5)" />
+      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
