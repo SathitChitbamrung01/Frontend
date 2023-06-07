@@ -8,7 +8,6 @@ export default function Contact() {
     <Head>
       <title>Home Comin</title>
     </Head>
-
     <div>
     <header>
   <nav className="navbar navbar-expand-lg bg-#e3f2fd;">
@@ -23,7 +22,7 @@ export default function Contact() {
           <Link className="nav-link active" aria-current="page" href=".">หน้าแรก</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link " href="about">เกี่ยวกับเรา</Link>
+        <Link className="nav-link active" aria-current="page" href="/about">เกี่ยวกับเรา</Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,98 +49,57 @@ export default function Contact() {
   </header>
     </div>
 
-<main>
-    <div id="carouselExampleDark" className="carousel carousel-dark slide">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to={1} aria-label="Slide 2" />
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to={2} aria-label="Slide 3" />
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval={2000}>
-      <img src="/LOL(5).jpg" className="d-block w-100" alt="LOL(5)" />
-      <div className="carousel-caption d-none d-md-block">
+  <div className="b-example-divider" />
+  <div className="container px-4 py-5">
+    <h2 className="pb-2 border-bottom">ช่องทางการติดต่อ</h2>
+    <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div className="col d-flex flex-column align-items-start gap-2">
+      <img src="DSC_0004_1.jpg" width={445} height={550} />
+      </div>
+      <div className="col">
+        <div className="row row-cols-1 row-cols-sm-2 g-4">
+          <div className="col d-flex flex-column gap-2">
+            <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg className="bi" width="1em" height="1em">
+                <use xlinkHref="#collection" />
+              </svg>
+            </div>
+            <h4 className="fw-semibold mb-0 text-body-emphasis">Facebook</h4>
+            <p className="text-body-secondary">Satht Chitbamrung</p>
+          </div>
+          <div className="col d-flex flex-column gap-2">
+            <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg className="bi" width="1em" height="1em">
+                <use xlinkHref="#gear-fill" />
+              </svg>
+            </div>
+            <h4 className="fw-semibold mb-0 text-body-emphasis">Instagram</h4>
+            <p className="text-body-secondary">Satht_Chitbamrung</p>
+          </div>
+          <div className="col d-flex flex-column gap-2">
+            <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg className="bi" width="1em" height="1em">
+                <use xlinkHref="#speedometer" />
+              </svg>
+            </div>
+            <h4 className="fw-semibold mb-0 text-body-emphasis">Line</h4>
+            <p className="text-body-secondary">Satithrk1416@gmail.co</p>
+          </div>
+          <div className="col d-flex flex-column gap-2">
+            <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg className="bi" width="1em" height="1em">
+                <use xlinkHref="#table" />
+              </svg>
+            </div>
+            <h4 className="fw-semibold mb-0 text-body-emphasis">Phone</h4>
+            <p className="text-body-secondary">081-734-5543</p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div className="carousel-item" data-bs-interval={2000}>
-      <img src="/LOL(2).jpg" className="d-block w-100" alt="LOL(2)" />
-      <div className="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-
-    <div className="carousel-item">
-      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
-      <div className="carousel-caption d-none d-md-block">
-      </div>
-    </div>
   </div>
 
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-
-<br/>
-
-<div className="container marketing">
-  <div className="row">
-    <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-      <h2 className="fw-normal">Phoenix Next</h2>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
-    </div>
-    <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-      <h2 className="fw-normal">Luckpim</h2>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
-    </div>
-    <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-      <h2 className="fw-normal">first page pro</h2>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
-    </div>
-  </div>
-  <hr className="featurette-divider" />
-  <div className="row featurette">
-    <div className="col-md-7">
-      <h2 className="featurette-heading fw-normal lh-1">Phoenix Next<span className="text-body-secondary"></span></h2>
-      <p className="lead">ฟีนิกซ์ (อังกฤษ: Phoenix) เป็นสำนักพิมพ์ในประเทศไทยในเครือบริษัทคาโดคาวะ อมรินทร์จำกัด ก่อตั้งเมื่อปี พ.ศ. 2559 ตีพิมพ์และจัดจำหน่ายไลต์โนเวลและมังงะจากสำนักพิมพ์ในประเทศญี่ปุ่นในรูปแบบแปลเป็นฉบับภาษาไทยที่ถูกลิขสิทธิ์</p>
-    </div>
-    <div className="col-md-5">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-    </div>
-  </div>
-  <hr className="featurette-divider" />
-  <div className="row featurette">
-    <div className="col-md-7 order-md-2">
-      <h2 className="featurette-heading fw-normal lh-1">Luckpim<span className="text-body-secondary"></span></h2>
-      <p className="lead">รักพิมพ์ หรือ บริษัทรักพิมพ์ พับลิชชิ่ง จำกัด เป็นสำนักพิมพ์ไทย ที่ตีพิมพ์และจัดจำหน่ายหนังสือการ์ตูนญี่ปุ่น ในรูปแบบแปลเป็นฉบับภาษาไทยที่ถูกลิขสิทธิ์จากสำนักพิมพ์ญี่ปุ่นและเป็นสำนักพิมพ์แรกที่ใช้กระดาษถนอมสายตาพิมพ์เป็นหนังสือการ์ตูน</p>
-    </div>
-    <div className="col-md-5 order-md-1">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-    </div>
-  </div>
-  <hr className="featurette-divider" />
-  <div className="row featurette">
-    <div className="col-md-7">
-      <h2 className="featurette-heading fw-normal lh-1">first page pro<span className="text-body-secondary">.</span></h2>
-      <p className="lead">FirstPageProสำนักพิมพ์นิยายการ์ตูน,จัดจำหน่ายหนังสือการ์ตูนนิยายราคาพิเศษ,อดัมแห่งสนธยาการตูน,อดัมแห่งสนธยานิยาย,ผู้กล้าโล่ผงาด,โรงเรียนคุกนรก,ไซโคเมะ.</p>
-    </div>
-    <div className="col-md-5">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/Phoenix Next.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
-    </div>
-  </div>
-  <hr className="featurette-divider" />
-</div>
-</main>
-
-<footer className="container">
+  <footer className="container">
 <div>
   <div className="b-example-divider" />
   <div className="container">
@@ -200,8 +158,8 @@ export default function Contact() {
     </footer>
   </div>
 </div>
-
 </footer>
+
     </>
   )
 }

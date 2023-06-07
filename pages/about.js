@@ -200,7 +200,6 @@ export default function about() {
     </footer>
   </div>
 </div>
-
 </footer>
     </>
   )
