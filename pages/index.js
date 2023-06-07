@@ -21,10 +21,10 @@ export default function index() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/.">หน้าแรก</a>
+          <Link className="nav-link active" aria-current="page" href=".">หน้าแรก</Link>
         </li>
         <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="about_me.js">เกี่ยวกับเรา</a>
+        <Link className="nav-link active" aria-current="page" href="/about">เกี่ยวกับเรา</Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,7 +38,7 @@ export default function index() {
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">ติดต่อเรา</a>
+        <Link className="nav-link " href="Contact">ช่องทางการติดต่อ</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">
@@ -59,28 +59,25 @@ export default function index() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to={2} aria-label="Slide 3" />
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval={10000}>
+    <div className="carousel-item active" data-bs-interval={2000}>
       <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
       <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
+
     <div className="carousel-item" data-bs-interval={2000}>
       <img src="/LOL(2).jpg" className="d-block w-100" alt="LOL(2)" />
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
+
     <div className="carousel-item">
-      <img src="/LOL(3).jpg" className="d-block w-100" alt="LOL(3)" />
+      <img src="/LOL(5).jpg" className="d-block w-100" alt="LOL(5)" />
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   </div>
+
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true" />
     <span className="visually-hidden">Previous</span>
@@ -97,28 +94,25 @@ export default function index() {
   <div className="row">
     <div className="col-lg-4">
       <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-      <h2 className="fw-normal">Heading</h2>
-      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      <h2 className="fw-normal">Phoenix Next</h2>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>
     <div className="col-lg-4">
       <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-      <h2 className="fw-normal">Heading</h2>
-      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <h2 className="fw-normal">Luckpim</h2>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>
     <div className="col-lg-4">
       <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-      <h2 className="fw-normal">Heading</h2>
-      <p>And lastly this, the third column of representative placeholder content.</p>
+      <h2 className="fw-normal">first page pro</h2>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>
   </div>
   <hr className="featurette-divider" />
   <div className="row featurette">
     <div className="col-md-7">
-      <h2 className="featurette-heading fw-normal lh-1">First featurette heading. <span className="text-body-secondary">It’ll blow your mind.</span></h2>
-      <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      <h2 className="featurette-heading fw-normal lh-1">Phoenix Next<span className="text-body-secondary"></span></h2>
+      <p className="lead">ฟีนิกซ์ (อังกฤษ: Phoenix) เป็นสำนักพิมพ์ในประเทศไทยในเครือบริษัทคาโดคาวะ อมรินทร์จำกัด ก่อตั้งเมื่อปี พ.ศ. 2559 ตีพิมพ์และจัดจำหน่ายไลต์โนเวลและมังงะจากสำนักพิมพ์ในประเทศญี่ปุ่นในรูปแบบแปลเป็นฉบับภาษาไทยที่ถูกลิขสิทธิ์</p>
     </div>
     <div className="col-md-5">
       <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
@@ -127,8 +121,8 @@ export default function index() {
   <hr className="featurette-divider" />
   <div className="row featurette">
     <div className="col-md-7 order-md-2">
-      <h2 className="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span className="text-body-secondary">See for yourself.</span></h2>
-      <p className="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      <h2 className="featurette-heading fw-normal lh-1">Luckpim<span className="text-body-secondary"></span></h2>
+      <p className="lead">รักพิมพ์ หรือ บริษัทรักพิมพ์ พับลิชชิ่ง จำกัด เป็นสำนักพิมพ์ไทย ที่ตีพิมพ์และจัดจำหน่ายหนังสือการ์ตูนญี่ปุ่น ในรูปแบบแปลเป็นฉบับภาษาไทยที่ถูกลิขสิทธิ์จากสำนักพิมพ์ญี่ปุ่นและเป็นสำนักพิมพ์แรกที่ใช้กระดาษถนอมสายตาพิมพ์เป็นหนังสือการ์ตูน</p>
     </div>
     <div className="col-md-5 order-md-1">
       <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
@@ -137,11 +131,11 @@ export default function index() {
   <hr className="featurette-divider" />
   <div className="row featurette">
     <div className="col-md-7">
-      <h2 className="featurette-heading fw-normal lh-1">And lastly, this one. <span className="text-body-secondary">Checkmate.</span></h2>
-      <p className="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      <h2 className="featurette-heading fw-normal lh-1">first page pro<span className="text-body-secondary">.</span></h2>
+      <p className="lead">FirstPageProสำนักพิมพ์นิยายการ์ตูน,จัดจำหน่ายหนังสือการ์ตูนนิยายราคาพิเศษ,อดัมแห่งสนธยาการตูน,อดัมแห่งสนธยานิยาย,ผู้กล้าโล่ผงาด,โรงเรียนคุกนรก,ไซโคเมะ.</p>
     </div>
     <div className="col-md-5">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/Phoenix Next.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
     </div>
   </div>
   <hr className="featurette-divider" />
