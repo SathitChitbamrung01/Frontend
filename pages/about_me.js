@@ -3,11 +3,11 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Script from 'next/script';
 import Link from 'next/link';
-export default function index() {
+export default function about_me() {
   return (
     <>
     <Head>
-      <title>Home Comin</title>
+      <title>about_me</title>
     </Head>
 
     <div>
