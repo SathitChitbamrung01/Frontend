@@ -93,7 +93,7 @@ export default function index() {
 <div className="container marketing">
   <div className="row">
     <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+      <img className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="logo.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></img>
       <h2 className="fw-normal">Phoenix Next</h2>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>
