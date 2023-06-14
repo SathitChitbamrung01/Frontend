@@ -139,7 +139,7 @@ export default function index() {
       <p className="lead">💵 เล่มละ 120 บาท </p>
     </div>
     <div className="col-md-5">
-    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO03.jpg'></img>
+    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO03 .jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
