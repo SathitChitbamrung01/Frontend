@@ -93,49 +93,53 @@ export default function index() {
 <div className="container marketing">
   <div className="row">
     <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='logo1.jpg'></img>
       <h2 className="fw-normal">Phoenix Next</h2>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
+      <p><Link className="btn btn-secondary" href="https://www.phoenixnext.com/">View details »</Link></p>
     </div>
     <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='logo2.jpg'></img>      
       <h2 className="fw-normal">Luckpim</h2>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
+      <p><Link className="btn btn-secondary" href="https://www.facebook.com/Luckpim/?locale=th_TH/">View details »</Link></p>
     </div>
     <div className="col-lg-4">
-      <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='logo3.jpg'></img>  
       <h2 className="fw-normal">first page pro</h2>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
+      <p><Link className="btn btn-secondary" href="http://www.firstpagepro.com/">View details »</Link></p>
     </div>
   </div>
   <hr className="featurette-divider" />
   <div className="row featurette">
     <div className="col-md-7">
       <h2 className="featurette-heading fw-normal lh-1">Phoenix Next<span className="text-body-secondary"></span></h2>
-      <p className="lead">ฟีนิกซ์ (อังกฤษ: Phoenix) เป็นสำนักพิมพ์ในประเทศไทยในเครือบริษัทคาโดคาวะ อมรินทร์จำกัด ก่อตั้งเมื่อปี พ.ศ. 2559 ตีพิมพ์และจัดจำหน่ายไลต์โนเวลและมังงะจากสำนักพิมพ์ในประเทศญี่ปุ่นในรูปแบบแปลเป็นฉบับภาษาไทยที่ถูกลิขสิทธิ์</p>
+      <p className="lead">กลับมาเจออีกครั้งกับกิจกรรมประจำเดือน เตรียมพบกับลิขสิทธิ์ใหม่จากสำนักพิมพ์ phoenix ประจำเดือนกรกฎาคม 2023 ตั้งแต่วันพรุ่งนี้เป็นต้นไปจ้า</p>
     </div>
     <div className="col-md-5">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO01.jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
   <div className="row featurette">
     <div className="col-md-7 order-md-2">
       <h2 className="featurette-heading fw-normal lh-1">Luckpim<span className="text-body-secondary"></span></h2>
-      <p className="lead">รักพิมพ์ หรือ บริษัทรักพิมพ์ พับลิชชิ่ง จำกัด เป็นสำนักพิมพ์ไทย ที่ตีพิมพ์และจัดจำหน่ายหนังสือการ์ตูนญี่ปุ่น ในรูปแบบแปลเป็นฉบับภาษาไทยที่ถูกลิขสิทธิ์จากสำนักพิมพ์ญี่ปุ่นและเป็นสำนักพิมพ์แรกที่ใช้กระดาษถนอมสายตาพิมพ์เป็นหนังสือการ์ตูน</p>
+      <p className="lead">ประกาศเติมสต็อกวันนี้ </p>
+      <p className='lead'>" วัดป่วนชวนมารัก" เล่ม 1-4 วางจำหน่ายแล้ววันนี้บนร้านค้าออนไลน์และร้านหนังสือทั่วไป</p>
     </div>
     <div className="col-md-5 order-md-1">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO02.jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
   <div className="row featurette">
     <div className="col-md-7">
       <h2 className="featurette-heading fw-normal lh-1">first page pro<span className="text-body-secondary">.</span></h2>
-      <p className="lead">FirstPageProสำนักพิมพ์นิยายการ์ตูน,จัดจำหน่ายหนังสือการ์ตูนนิยายราคาพิเศษ,อดัมแห่งสนธยาการตูน,อดัมแห่งสนธยานิยาย,ผู้กล้าโล่ผงาด,โรงเรียนคุกนรก,ไซโคเมะ.</p>
+      <p className="lead">📣📣📣 สินค้าออกใหม่ประจำสัปดาห์ 📣📣📣</p>
+      <p className="lead">เอฟจังเอาความนุ่มฟูมาเสิร์ฟทุกคนแล้วค่า</p>
+      <p className="lead">🌠 การ์ตูน คุณพนักงานคะ รับน้องผีไปช่วยเยียวยาไหมคะ เล่ม 3</p>
+      <p className="lead">💵 เล่มละ 120 บาท </p>
     </div>
     <div className="col-md-5">
-      <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/Phoenix Next.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO03.jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
